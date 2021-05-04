@@ -4,6 +4,7 @@ ShoreTrans: a simple, rules-based, user-input driven, shoreface translation and 
 
 The ShoreTrans model is associated with the article:
 "A rules-based shoreface translation and sediment budgeting tool for estimating coastal change: ShoreTrans" McCarroll et al., 2021, Marine Geology.
+https://www.sciencedirect.com/science/article/pii/S0025322721000487
 
 Code is in Matlab.
 
