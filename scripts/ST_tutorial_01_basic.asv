@@ -1,0 +1,51 @@
+%% ST_tutorial_01_1
+% May 2021
+% Some example of the basic function of SHORETRANS, all using "ENCROACHMENT" type translatio
+close all, clear all, clc
+rmpath('D:\Dropbox\7_MODELS\009_EmbaSM\functions');
+rmpath(genpath('D:\Dropbox\Matlab'));
+rmpath(genpath('D:\openEarthTools'));
+cd('D:\Dropbox\7_MODELS\013_ShrTrns\data');
+load('tutorial_01_data_x0z0.mat','x0','z0');
+
+%% -------- TUT01-00: Input settings  ------------ %%
+OPT = ST_OPT_defaults; % generate OPT (default settings)
+   % ST_OPT_defaults contains a summary of  
+
+% Change some settings
+OPT.dS = 0.8 % dS = amount of sea level change (m)
+OPT.DoC = -12; % (UPPER) Depth of closure (default = 10 m)
+OPT.toeCrest_level = 2.5; % for dunes -> toe elevation (for low barriers -> crest elevation)
+
+%% -------- TUT01-01: Run ST, 1 time step ------------ %%
+[outProf1,~, OPT1] = ST_MAIN(x0, z0, 0, OPT);
+z1 = outProf1.z_final; % translated profile
+
+% Plot output
+close all, figure, figpos, hold on;
+title(['Profile translation, SLR = ' num2str(OPT.dS) ' m']);
+plot(x0,z0, 'k');
+plot(x0,z1, 'r:');
+legend('Initial profile','Translated profile');
+xlabel('Cross-shore distance (m)');
+ylabel('Elevation (m)');
+
+%% -------- TUT01-02: Run ST, 1 time step, sediment budget deficit ------------ %%
+dV_input = -200; % sediment budget (deficit) = -100 m3/m
+[outProf2,~, OPT2] = ST_MAIN(x0, z0, dV_input, OPT);
+z2 = outProf2.z_final; % translated profile
+
+% Plot output
+close all, figure, figpos, hold on;
+title(['Profile translation']);
+plot(x0,z0, 'k');
+plot(x0,z1, 'r:');
+plot(x0,z2, 'b-.');
+legend('Initial profile','SLR = 0.8 m','... & budget = -100 m^3/m');
+xlabel('Cross-shore distance (m)');
+ylabel('Elevation (m)');
+
+%%
+
+
+
