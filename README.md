@@ -41,7 +41,7 @@ Mean projected shoreline recession of 43 m is 20 % lower than for a simple p
 
 Automated morphological adaptation represents a step-change for regional scale coastal change assessment. The method also allows for coupling of future erosion to inundation hazards, by interpolating a 3D surface of future morphology. At local-scale, ShoreTrans is suitable to add to hybrid models, providing a means to improve future coastal change projections.
 
-
+22/6/2025
 
 +++++++++++
 # ShoreTrans (2021 version)
@@ -53,11 +53,5 @@ The ShoreTrans model is associated with the article:
 https://www.sciencedirect.com/science/article/pii/S0025322721000487
 
 Code is in Matlab.
-
-Some elements presented in the article are still to be added or need testing/improvement, including:
-- Time series of shoreface translation with SLR curve
-- Probabilistic sampling and Monte Carlo simulations
-- Non-erodible layer (rock outcrops) needs further testing
-- Optimization routine needs re-writing
 
 4/5/2021
