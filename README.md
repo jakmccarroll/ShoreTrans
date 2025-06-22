@@ -30,6 +30,7 @@ AUTHORS: Robert Jak McCarroll1, David M. Kennedy1, Daniel Ierodiaconou2
 2 School of Life and Environmental Sciences, Deakin University, Warrnambool, Victoria, Australia
 
 ABSTRACT
+
 Sea level rise induced coastal erosion represents an impending threat to the world's coastlines. A critical control on coastal recession is the onshore accommodation space available for a receding beach to occupy. Despite the importance of morphologic controls, coastal change models applied at regional-scale over ~100-year time-frames typically address a limited range of coastal morphologies.
 
 ShoreTrans is a shoreface translation model that kinematically projects profile change, based on inputs of sea level rise and sediment budget imbalances. This work presents updates to enable broad-scale model application (1000's km), automating classification and adapting to the morphology of individual profiles, including: (1) dunes; (2) cliffs; (3) bluffs and ridges; (4) inter-subtidal rock outcrops; (5) protection structures; (6) low-energy environments; and (7) short-term dune erosion. The model was applied to Victoria, Australia (2000 km coastline, 30 m spaced transects), for a scenario of 1 m sea level rise from 2010 to 2100, using a single time step and simplified treatment of uncertainty and sediment budget. Shoreline trends and variability were determined from satellite extracted shorelines.
