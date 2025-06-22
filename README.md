@@ -7,11 +7,13 @@ DOI: https://doi.org/10.1016/j.margeo.2025.107602
 Email: jak.mccarroll@gmail.com 
 
 ZENODO REPOSITORY
+
 The ShoreTrans and Morphological Classification functions as well as input / output datasets are available in a Zenodo repository
 ZENODO LINK: https://doi.org/10.5281/zenodo.15161568
 
 
 QUICK INSTRUCTIONS
+
 1. Download and unzip "_tutorial_scripts+data_22Jun2025.zip"
 2. Download and unzip "_ShoreTrans_functions_22Jun2025.zip" ---> add all functions to the Matlab path
 3. Download and unzip "_profile_prep+classify_functions_22Jun2025.zip" ---> add all functions to the Matlab path
@@ -58,6 +60,4 @@ Some elements presented in the article are still to be added or need testing/imp
 - Non-erodible layer (rock outcrops) needs further testing
 - Optimization routine needs re-writing
 
-jak.mccarroll@plymouth.ac.uk
-
-Jak McCarroll, 4/5/2021
+4/5/2021
