@@ -1,4 +1,4 @@
-**GITHUB - SHORETRANS (June 2025) **
+# ShoreTrans (June 2025 update) **
 This update contains ShoreTrans functions and Profile Morphological Classification functions associated with the article:
 McCarroll, R. J., Kennedy, D. M., & Ierodiaconou, D. (2025). Morphologically adaptive modelling of sea level rise induced coastal erosion impacts for south-East Australia. Marine Geology, 107602.
 
