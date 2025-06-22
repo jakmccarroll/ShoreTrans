@@ -9,8 +9,7 @@ Email: jak.mccarroll@gmail.com
 
 ZENODO REPOSITORY
 
-The ShoreTrans and Morphological Classification functions as well as input / output datasets are available in a Zenodo repository
-ZENODO LINK: https://doi.org/10.5281/zenodo.15161568
+The ShoreTrans and Morphological Classification functions as well as input / output datasets are available in a Zenodo repository: https://doi.org/10.5281/zenodo.15161568
 
 
 QUICK INSTRUCTIONS
